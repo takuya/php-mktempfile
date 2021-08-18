@@ -3,13 +3,13 @@ Make a Temp file in SysTemp with temp_name and auto removed.
 
 ## mktempfile function
 This package provides a function `mktempfile()` to your composer project.
-```injectablephp
+```php
 <?php
 require_once 'vendor/autoload.php';
 $temp_file = mktempfile();
 file_exists($temp_file);#=>true
 ```
-## The TempDir will be auto remove
+## $temp_file will be auto remove
 
 `$temp_file` will be ***auto removed*** by 'register_shutdown_function'.
 
@@ -20,7 +20,7 @@ file_exists($temp_file);#=>true
 ## Installing from GitHub.
 ```
 composer config repositories.takuya/php-mktempfile vcs https://github.com/takuya/php-mktempfile
-composer require takuya/php-rrmdir
+composer require takuya/php-mktempfile
 ```
 ## Installing with packagist.
 ```
