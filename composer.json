@@ -1,5 +1,5 @@
 {
-  "name": "takuya/php-mktemp_file",
+  "name": "takuya/php-mktempfile",
   "type": "library",
   "license": "GPL-3.0-or-later",
   "authors": [
